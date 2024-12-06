@@ -12,3 +12,10 @@ I know this project involves building an interactive program to create and manag
 - Learned how to handle binary file headers in Python.
 - Next Steps: Implement `insert` and `search` commands.
 
+## 12/5/2024 7:28 pm
+- Successfully implemented the `insert` command, including handling node splits when the maximum degree was exceeded.
+- Implemented the `search` command to traverse the B-Tree and return the value of a specified key.
+- Tested both commands and confirmed they handle valid inputs and edge cases (e.g., duplicate keys, missing keys).
+- Next Steps: Work on the `load` command to enable bulk insertion from a file.
+
+
