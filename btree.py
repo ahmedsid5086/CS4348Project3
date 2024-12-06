@@ -137,7 +137,7 @@ class BTree:
 
     def _read_header(self):
         self.file.seek(0)
-        self.file.read(8)  # Skip magic number
+        self.file.read(8) 
         root_block_id, self.next_block_id = struct.unpack(">QQ", self.file.read(16))
 
     def close(self):
